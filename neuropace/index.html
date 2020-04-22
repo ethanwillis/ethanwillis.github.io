@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <script>
-      window.addEventListener("load", loadSmartbot);
 
-      var loadSmartbot = function() {
-        var smartbot360 = document.getElementById("smartbot360");
-        var script = document.createElement("script");
-        smartbot360.setAttribute("hidewindowmobile", "true");
-        smartbot360.setAttribute("botwidth", "40%");
-        smartbot360.setAttribute("fontsize", "small");
-        smartbot360.setAttribute("hidewindow", "false");
-        smartbot360.setAttribute("botheight", "80%");
-        smartbot360.setAttribute("picture", "true");
-        smartbot360.setAttribute("bot-title", "SMARTBOT360");
-        smartbot360.setAttribute("autologoff", "true");
-        smartbot360.setAttribute("autostart", "true");
-        smartbot360.setAttribute("botkey", "55330e3e-939f-4c36-976b-6872bebef401");
-        smartbot360.setAttribute("sticky", "true");
-        script.setAttribute("type", "text/javascript");
-        script.setAttribute("src", "https://neuropace.smartbot360.com/react/static/js/main.js");
-        document.body.appendChild(script);
-      };
-    </script>
   </head>
   <body>
     <div id="smartbotstyles"></div><div id="smartbot360"></div>
+    <script> (function() {
+    var smartbot360 = document.getElementById("smartbot360");
+    var script = document.createElement("script");
+    smartbot360.setAttribute("quickReplyColor", "#F28474");
+    smartbot360.setAttribute("hidewindowmobile", "true");
+    smartbot360.setAttribute("chaticon", "https://ip-172-31-21-124-us-west-2-compute-internal.s3.amazonaws.com/server/images/241bc6c6-4de4-4b48-b1f6-314cad7d4b2f/N0OPfs1B2arvUPszwNOaktJPySOZkJMJ.png");
+    smartbot360.setAttribute("botwidth", "60%");
+    smartbot360.setAttribute("fontsize", "small");
+    smartbot360.setAttribute("userMessageColor", "#F28474");
+    smartbot360.setAttribute("hidewindow", "false");
+    smartbot360.setAttribute("botheight", "80%");
+    smartbot360.setAttribute("picture", "true");
+    smartbot360.setAttribute("headerColor", "#1F73BE");
+    smartbot360.setAttribute("hideEmojiButton", "true");
+    smartbot360.setAttribute("bot-title", "Neuropace");
+    smartbot360.setAttribute("chatavatar", "https://ip-172-31-21-124-us-west-2-compute-internal.s3.amazonaws.com/server/images/633b8d23-2182-4575-b986-59881c0cca6c/2T5KbLTKsZLwznEq8xMu6VbeGUb32TIb.png");
+    smartbot360.setAttribute("embeddable", "false");
+    smartbot360.setAttribute("botMessageColor", "#00BBDF");
+    smartbot360.setAttribute("font", "Arial");
+    smartbot360.setAttribute("autologoff", "true");
+    smartbot360.setAttribute("autostart", "true");
+    smartbot360.setAttribute("botkey", "46ad85d8-87d5-4120-8379-840e04c5b7f3");
+    smartbot360.setAttribute("sticky", "true");
+    script.setAttribute("type", "text/javascript");
+    script.setAttribute("src", "https://neuropace.smartbot360.com/react/static/js/main.js");
+    document.body.appendChild(script);
+    })(); </script>
   </body>
 </html>
