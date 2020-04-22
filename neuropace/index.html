@@ -2,7 +2,9 @@
 <html lang="en-us">
   <head>
     <script>
-      (function() {
+      window.addEventListener("load", loadSmartbot);
+
+      var loadSmartbot = function() {
         var smartbot360 = document.getElementById("smartbot360");
         var script = document.createElement("script");
         smartbot360.setAttribute("hidewindowmobile", "true");
@@ -19,7 +21,7 @@
         script.setAttribute("type", "text/javascript");
         script.setAttribute("src", "https://neuropace.smartbot360.com/react/static/js/main.js");
         document.body.appendChild(script);
-      })();
+      };
     </script>
   </head>
   <body>
