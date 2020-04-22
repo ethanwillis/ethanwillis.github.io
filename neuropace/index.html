@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-
+    <script>
+      (function() {
+        var smartbot360 = document.getElementById("smartbot360");
+        var script = document.createElement("script");
+        smartbot360.setAttribute("hidewindowmobile", "true");
+        smartbot360.setAttribute("botwidth", "40%");
+        smartbot360.setAttribute("fontsize", "small");
+        smartbot360.setAttribute("hidewindow", "false");
+        smartbot360.setAttribute("botheight", "80%");
+        smartbot360.setAttribute("picture", "true");
+        smartbot360.setAttribute("bot-title", "SMARTBOT360");
+        smartbot360.setAttribute("autologoff", "true");
+        smartbot360.setAttribute("autostart", "true");
+        smartbot360.setAttribute("botkey", "55330e3e-939f-4c36-976b-6872bebef401");
+        smartbot360.setAttribute("sticky", "true");
+        script.setAttribute("type", "text/javascript");
+        script.setAttribute("src", "https://neuropace.smartbot360.com/react/static/js/main.js");
+        document.body.appendChild(script);
+      })();
+    </script>
   </head>
   <body>
     <div id="smartbotstyles"></div><div id="smartbot360"></div>
-      <script>
-        (function() {
-          var smartbot360 = document.getElementById("smartbot360");
-          var script = document.createElement("script");
-          smartbot360.setAttribute("hidewindowmobile", "true");
-          smartbot360.setAttribute("botwidth", "40%");
-          smartbot360.setAttribute("fontsize", "small");
-          smartbot360.setAttribute("hidewindow", "false");
-          smartbot360.setAttribute("botheight", "80%");
-          smartbot360.setAttribute("picture", "true");
-          smartbot360.setAttribute("bot-title", "SMARTBOT360");
-          smartbot360.setAttribute("autologoff", "true");
-          smartbot360.setAttribute("autostart", "true");
-          smartbot360.setAttribute("botkey", "55330e3e-939f-4c36-976b-6872bebef401");
-          smartbot360.setAttribute("sticky", "true");
-          script.setAttribute("type", "text/javascript");
-          script.setAttribute("src", "https://neuropace.smartbot360.com/react/static/js/main.js");
-          document.body.appendChild(script);
-        })();
-    </script>
   </body>
 </html>
